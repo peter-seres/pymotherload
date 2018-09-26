@@ -1,11 +1,10 @@
 from gameObject.staticGameObject  import GLOBAL_OFFSET
 from gameObject.dynamicGameObject import DynamicGameObject
-from gameObject.tank.cargo_bay import CargoBay
-from gameObject.tank.cooler import Cooler
-from gameObject.tank.engine import Engine
-from gameObject.tank.fuel_tank import FuelTank
-from gameObject.tank.frame import Frame
-from gameObject.tank.drill import Drill
+from tank.cargo_bay import CargoBay
+from tank.cooler import Cooler
+from tank.engine import Engine
+from tank.fuel_tank import FuelTank
+from tank.frame import Frame
 from game_mode_constants import *
 
 
