@@ -1,6 +1,6 @@
 from gameObject.interface.text_display import TextObject
 from gameObject.tank.tank import Tank
-from gameEngine02 import gameEngine02
+from pygameEngine02 import gameEngine02
 
 tank = Tank(400, 100, 0.1)
 
