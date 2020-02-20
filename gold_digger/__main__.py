@@ -119,7 +119,6 @@ class GoldDigger(arcade.Window):
 
     def on_mouse_release(self, x, y, button, modifiers):
         if button == arcade.MOUSE_BUTTON_LEFT:
-            # Release the item we are holding (if any)
             self.tank.set_fly(False)
 
     def on_key_press(self, key: int, modifiers: int):
